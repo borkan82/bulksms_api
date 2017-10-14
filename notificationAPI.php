@@ -172,7 +172,7 @@ $file 	 = file_put_contents("reports/response/".$datum.".txt", $writeResponse, F
 
 function triggerConversion($rpd_id, $value=30){
 	$ch = curl_init();
-	curl_setopt($ch, CURLOPT_URL, 'http://www.rapidtrk.net/tracking/api/log_conversion.php?api=56745374');
+	curl_setopt($ch, CURLOPT_URL, '');
 	curl_setopt($ch, CURLOPT_SSL_VERIFYHOST, 0);
 	curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
 	curl_setopt($ch, CURLOPT_FOLLOWLOCATION, 1);
